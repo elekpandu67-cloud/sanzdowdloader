@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "Backend SanzDownloader - IG / YouTube / TikTok",
   "main": "server.js",
-  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "yt-dlp-exec": "^2.0.1"
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "yt-dlp-exec": "1.0.2"
   }
 }
