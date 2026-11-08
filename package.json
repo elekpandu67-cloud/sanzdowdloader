@@ -1,14 +1,14 @@
 {
   "name": "sanzdownloader-backend",
   "version": "1.0.0",
-  "description": "Backend SanzDownloader - IG / YouTube / TikTok",
+  "description": "Backend SanzDownloader",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "2.8.5",
-    "express": "4.18.2",
-    "yt-dlp-exec": "1.0.2"
+    "cors": "*",
+    "express": "*",
+    "yt-dlp-exec": "*"
   }
 }
